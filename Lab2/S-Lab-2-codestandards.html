@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Lab Login</title>
+	<link rel="stylesheet" href="lab2.css" type="text/css">
+</head>
+<body>
+<main>
+	<h1>Login Page</h1>
+	<div >
+<!--==== LOGIN FORM BLOCK ====-->
+		<form class="login" name="loginForm">
+			<fieldset class="login__fieldset">
+				<legend>User Authentication</legend>
+				
+				<div>
+					<label class="login__label" for="username">
+						Username:
+						<input class="login__txtbox login__username" type="text" name="username">
+					</label>
+					
+				</div>
+
+				<div>
+					<label class="login__label" for="password">
+						Password: 
+						<input class="login__txtbox login__password" type="password" name="password">
+					</label>
+					
+				</div>
+
+				<div>
+					<button class="login__button" type="submit">Log in</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+<!--==== OUTPUT BLOCK ====-->	
+	<div class="output">
+		<p>Username: 
+			<span class="output__text output__user"></span>
+		</p>
+		<p>Password: 
+			<span class="output__text output__pass"></span>
+		</p>
+	</div><!--END output BLOCK-->
+</main>
+
+	<script src="./script.js"></script>
+</body>
+</html>
