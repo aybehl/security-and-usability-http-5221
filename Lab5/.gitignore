@@ -1,0 +1,4 @@
+/cypress/*
+!/cypress/e2e/
+
+.DS_Store
